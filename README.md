@@ -14,7 +14,7 @@ This is an api that uses youtube-dl to return the audio url of the video.
 * gunicorn (on heroku only)
  
 ## Installation
-  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ```bash
 pip3 install youtube_dl flask gunicorn
 ```
