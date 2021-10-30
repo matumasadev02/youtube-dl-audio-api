@@ -16,7 +16,7 @@ https://youtube-dl-audio-api.herokuapp.com/
 
 ## Usage
  
-## Install
+### Install
 ```bash
 pip3 install youtube_dl flask gunicorn
 ```
