@@ -1,0 +1,6 @@
+{
+    "name": "youtube-dl-audio-api",
+    "description": "This is an api that uses youtube-dl to return the audio url of the video.",
+    "repository": "https://github.com/matumasadev02/youtube-dl-audio-api",
+    "keywords": ["youtube-dl", "youtube-dl-api", "youtube-dl audio"]
+}
