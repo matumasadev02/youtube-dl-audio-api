@@ -27,6 +27,6 @@ def return_url():
         except Exception as e:
             return jsonify({"error": str(e)})
     else:
-        return jsonify({"error": "please enter the video url."})
+        return jsonify({"error": "Please enter the video url. Doc: https://github.com/matumasadev02/youtube-dl-audio-api/blob/master/README.md"})
 if __name__ == '__main__':
     app.run()
