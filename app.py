@@ -17,7 +17,7 @@ def redirect_url():
         except Exception as e:
             return jsonify({"error": str(e)})
     else:
-        return jsonify({"error": "please enter the video url."})
+        return jsonify({"error": "Please enter the video url. Doc: https://github.com/matumasadev02/youtube-dl-audio-api/blob/master/README.md"})
 @app.route('/get')
 def return_url():
     if request.args.get('url') != "":
