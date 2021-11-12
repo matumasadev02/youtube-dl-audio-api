@@ -31,16 +31,16 @@ or Deploy to Heroku
 gunicorn app:app
 ```
 ### Redirect to audio url:  
-```127.0.0.1:5000/?url=[url]```  
+```127.0.0.1:8000/?url=[url]```  
 ### Return json:  
-```127.0.0.1:5000/get?url=[url]```  
+```127.0.0.1:8000/get?url=[url]```  
 
 return:
 ```
 {
 url: "https://www.example.com/hogehoge.m4a"
 }
-```
+```  
 ## Author
 
 This program was made by matumasadev02.
