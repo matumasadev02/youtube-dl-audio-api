@@ -10,7 +10,7 @@ def returnAudioUrl(url):
 
 @app.route('/')
 def redirect_url():
-    if request.args.get('url') != "":
+    if request.args.get('url'):
         try:
             url = request.args.get('url')
             return redirect(returnAudioUrl(url))
@@ -20,7 +20,7 @@ def redirect_url():
         return jsonify({"error": "Please enter the video url. Doc: https://github.com/matumasadev02/youtube-dl-audio-api/blob/master/README.md"})
 @app.route('/get')
 def return_url():
-    if request.args.get('url') != "":
+    if request.args.get('url'):
         try:
             url = request.args.get('url')
             return jsonify({"url": returnAudioUrl(url)})
