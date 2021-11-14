@@ -41,7 +41,7 @@ or
 or  
 ```127.0.0.1:8000/info?query=[keyword]```
 
-return:
+response:
 ```
 {
     url: "https://www.example.com/hogehoge.m4a"
