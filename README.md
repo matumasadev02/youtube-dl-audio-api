@@ -12,6 +12,7 @@ https://youtube-dl-audio-api.herokuapp.com/
 * python3
 * youtube-dl
 * flask
+* flask-cors
 * gunicorn
 
 ## Usage
