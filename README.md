@@ -1,6 +1,6 @@
 # youtube-dl-audio-api
  
-This is an api that uses youtube-dl to return the audio url of the video.
+This is an api that returns the audio url of the video using youtube-dl.
  
 ## DEMO
 
@@ -32,13 +32,19 @@ gunicorn app:app
 ```
 ### Redirect to audio url:  
 ```127.0.0.1:8000/?url=[url]```  
+or  
+```127.0.0.1:8000?query=[keyword]``` 
+
 ### Return json:  
-```127.0.0.1:8000/get?url=[url]```  
+```127.0.0.1:8000/info?url=[url]```  
+or
+
+```127.0.0.1:8000/info?query=[keyword]```
 
 return:
 ```
 {
-url: "https://www.example.com/hogehoge.m4a"
+    url: "https://www.example.com/hogehoge.m4a"
 }
 ```  
 ## Author
